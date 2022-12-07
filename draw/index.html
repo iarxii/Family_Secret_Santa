@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa - Draw</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: url('../media/hand-drawn-secret-santa-illustration_23-2149162315.webp');
+            background-clip: content-box;
+            background-position: center;
+            background-size: contain;
+            background-repeat: none;
+            background-attachment: local;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+
+    <script src="../scripts/js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container h-100 d-grid align-items-center">
+        <h1 class="fs-1 text-center">Secret Santa</h1>
+
+        <div class="row">
+            <div class="col-md">
+                <h5 class="fs-5">I will (Input)</h5>
+                <ul class="list-group list-group-flush">
+                    <li id="in-1" class="list-group-item">Thabang</li>
+                    <li id="in-2" class="list-group-item">Samukelisiwe</li>
+                    <li id="in-3" class="list-group-item">Siyabonga</li>
+                    <li id="in-4" class="list-group-item">Mercy</li>
+                    <li id="in-5" class="list-group-item">Mpho</li>
+                    <li id="in-6" class="list-group-item">Mphonyana</li>
+                    <li id="in-7" class="list-group-item">Mama</li>
+                    <li id="in-8" class="list-group-item">Masila</li>
+                    <li id="in-9" class="list-group-item">Mandla</li>
+                    <li id="in-10" class="list-group-item">Gogo D</li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <h5 class="fs-5">get something for (Output)</h5>
+                <ul class="list-group list-group-flush">
+                    <li id="out-1" class="list-group-item">?</li>
+                    <li id="out-2" class="list-group-item">?</li>
+                    <li id="out-3" class="list-group-item">?</li>
+                    <li id="out-4" class="list-group-item">?</li>
+                    <li id="out-5" class="list-group-item">?</li>
+                    <li id="out-6" class="list-group-item">?</li>
+                    <li id="out-7" class="list-group-item">?</li>
+                    <li id="out-8" class="list-group-item">?</li>
+                    <li id="out-9" class="list-group-item">?</li>
+                    <li id="out-10" class="list-group-item">?</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn btn-lg btn-danger rounded-pill shadow p-4" onclick="start()">
+            Start
+        </button>
+    </div>
+
+    
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa - Register an Account</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="scripts/js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container h-100 d-grid align-items-center" style="background-color: rgba(255,255,255,0.9)">
+        <h1 class="fs-1 text-center">Family Secret Santa - Login</h1>
+
+        <form id="login-form" action="scripts/php/register.php" method="post" autocomplete="off">
+            <div class="mb-3">
+                <label for="name" class="form-label fs-4">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="surname" class="form-label fs-4">Surname</label>
+                <input type="text" class="form-control" id="surname" name="surname">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-4">Email address</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label fs-4">Create your Password</label>
+                <input type="password" class="form-control" id="password" name="password">
+            </div>
+            <div class="mb-3 d-grid">
+                <button type="submit" id="submit-btn" name="submit" class="btn btn-danger btn-lg">Create</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
