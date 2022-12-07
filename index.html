@@ -24,14 +24,16 @@
 <body>
     <div class="container-fluid p-4"
         style="height: 100%;width:100%;overflow-y: auto;background-color: rgba(255, 255, 255, 0.9)">
-        <div class="bg-success fs-1 p-4 d-flex justify-content-center align-items-center"
-            style="min-height: 50px;width: 100%;">
-            <img src="media/gifs/ShortAgonizingErin-max-1mb.gif" alt="Logo" width="100" height="100"
-                class="d-inline-block align-text-top">
-            <h1 class="fs-1 fw-bold m-0 text-center text-white">Family Secret Santa - Login</h1>
+        <div class="bg-success fs-1 text-truncate vector-bg-christmas-trees fixed-top">
+            <div class="container-fluid p-4 d-flex justify-content-center align-items-center"
+                style="background-color: rgba(25, 135, 84, 0.7);min-height: 50px;width: 100%;">
+                <img src="media/gifs/ShortAgonizingErin-max-1mb.gif" alt="Logo" width="100" height="100"
+                    class="d-inline-block align-text-top">
+                <h1 class="fs-1 fw-bold m-0 text-center text-white">Family Secret Santa</h1>
+            </div>
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center" style="margin-top: 120px;">
             <div class="col-md">
                 <!-- GIPHY - https://giphy.com/gifs/winterwonderland-FwDrrMVSYCgCQBVXah -->
                 <div class="mt-4" style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe
@@ -40,7 +42,9 @@
                 <p hidden><a href="https://giphy.com/gifs/winterwonderland-FwDrrMVSYCgCQBVXah">via GIPHY</a></p>
             </div>
             <div class="col-md">
+
                 <div class="container py-4 h-100 d-grid align-items-center justify-content-center">
+                    <h1 class="fs-1fw-bold text-center text-danger my-4">Login</h1>
                     <form id="login-form" action="scripts/php/login.php" method="post" autocomplete="off"
                         style="max-width: 500px;">
                         <div class="mb-3">
